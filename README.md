@@ -85,7 +85,7 @@ const int   BAUD_RATE     = 115200;
 1. **UART In**: Receives CSV or JSON-formatted sensor data from the ESP-NOW receiver.
 2. **Parse**: Converts incoming data into internal structures.
 3. **Firebase Sync**:
-   - Read/write to `/Config/<RackID>/`
+   - Read from `/Config/<RackID>/`
    - Write to `/ReceivedData/<RackID>/<SensorID>/`
 4. **UART Out**: Sends configuration updates back to the receiver module.
 
