@@ -65,11 +65,10 @@ cd transmittercode
 Update the following variables at the top of `transmitter.ino` before uploading:
 
 ```cpp
-const char* WIFI_SSID     = "your_ssid";
-const char* WIFI_PASSWORD = "your_password";
-const char* FIREBASE_HOST = "your-project.firebaseio.com";
-const char* FIREBASE_AUTH = "your_database_secret";
-const int   BAUD_RATE     = 115200;
+#define WIFI_SSID     = "your_ssid";
+#define WIFI_PASSWORD = "your_password";
+#define FIREBASE_HOST = "your-project.firebaseio.com";
+#define FIREBASE_AUTH = "your_database_secret";
 ```
 
 ## Usage
